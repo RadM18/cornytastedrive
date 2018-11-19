@@ -6,12 +6,18 @@
     <meta name="description" content="">
 	<link rel="shortcut icon" href="images/favicon.png">
     <title>cornyTASTEdrive</title>
-    <meta name="description" content="Выиграйте месячный запас Corny! Сделайте фото с Corny, веселыми табличками от Corny или Cornyмобилем">
-  	<meta name="Keywords" content="Выиграйте месячный запас Corny!">
 	<link href="css/fonts.css?v=1" rel="stylesheet">
     <link href="css/site.css?v=1" rel="stylesheet">
   </head>
 <body id="page-home">
+	<!--[if IE]>
+<style>
+     .main-box li {
+         display: inline-block;}
+    .main-box ul  {display: table-cell;}   
+</style>
+<![endif]-->
+ 
 	<div class="container">
 			<div class="main-box">
 
@@ -29,7 +35,7 @@
 						<li class="li4">получите Corny! </li>
 					</ul>
 	  
-					<p class="link-p"><a href="Правила Акции - CornyTasteDrive.pdf" target="_blank">Подробные правила акции — на ссылке</a><p>
+					<p class="link-p"><a >Подробные правила акции — на </a><a href="Правила Акции - CornyTasteDrive.pdf" target="_blank" class="main-link">ссылке</a><p>
 						<br />
 
 	<!-- 					<small>*По данным ООО «ГфК-Русь», Сorny — лидер по объемам продаж (кг) в категории «Злаковые батончики» в 2017 году в России.</small> -->
